@@ -6,7 +6,7 @@ class Globals {
 }
 
 // Workflow Steps
-node('master') {
+node('Win-MSI') {
   try {
     notifyBuild('STARTED')
 
